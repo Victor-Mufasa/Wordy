@@ -1,10 +1,11 @@
 body {
-    padding: 40px;
-    background-color: beige;
-    color:black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    margin: auto;
+  padding: 40px;
+  background-color: beige;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  margin: auto;
+  background-image: url("https://imgs.search.brave.com/5Un7CQO48qegwIdVkxa2Qn2z7v1K6JA4pwvx5BIBKjk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNDcx/MTY1ODAwL3ZlY3Rv/ci9zZWFtbGVzcy1l/ZHVjYXRpb24tYW5k/LWJvb2tzLWJhY2tn/cm91bmQuanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPWJxVjc3/X0ZScDlnT0ZUVW9O/VE5LTXV0YjZmbWVX/RnFQakVMc1gta0lx/bDg9");
 }
 
 form {
@@ -15,17 +16,32 @@ form {
 }
 
 #word {
-    padding: 10px;
-    border-radius: 4px;
-    font-size: 16px;
-    border: none;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 16px;
+  border: none;
 }
 
 #btn {
-  padding: 10px;
+  padding: 12px;
   box-sizing: border-box;
   background-color: #007bff;
   color: white;
   border: none;
-  border-radius: 4px;
+  border-radius: 10px;
+}
+
+#word-input {
+  padding: 10px;
+  font-size: 15px;
+}
+
+#btn:hover {
+  background-color: #0056b3;
+}
+
+#def-container {
+  display: flex;
+  font-size: 18px;
+  justify-content: center;
 }
