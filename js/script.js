@@ -38,15 +38,16 @@ document.addEventListener("DOMContentLoaded", function () {
         const entry = data[0];
         const wordObject = {
           word: entry["word"],
-          pronunciation: entry['phonetics'][0]['text'],
-          audioUrl: entry['phonetics'][0]['audio'],
-          def: entry["meanings"][0]['definitions'][0]['definition'],
+          pronunciation: entry["phonetics"][0]["text"],
+          audioUrl: entry["phonetics"][0]["audio"],
+          def: entry["meanings"][0]["definitions"][0]["definition"],
           partOfSpeech: entry["meanings"][0]["partOfSpeech"],
-          synonyms: entry["meanings"][0]['synonyms'],
-          antonyms: entry["meanings"][0]['antonyms']
+          synonyms: entry["meanings"][0]["synonyms"],
+          antonyms: entry["meanings"][0]["antonyms"]
         };
         displayDefiniton(wordObject);
-      });
+      })
+      .catch(error => console.error(error));
     form.reset();
   });
 });
