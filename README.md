@@ -23,7 +23,7 @@ Wordy is a sleek, modern web dictionary application built with HTML, CSS, and Ja
 
 ### Definition Display
 
-![Definitions](img/Displayed%20Definitions.png)
+![Definitions](img/Displayed%20Definition.png)
 
 ## Features
 
