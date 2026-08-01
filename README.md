@@ -10,6 +10,9 @@ Word dictionary built using HTML, CSS, JavaScript and dictionaryapi
 - [Live Demo](#live-demo)
 - [Local Setup](#local-setup)
 - [Technologies Used](#technologies-used)
+- [Contact](#contact)
+- [Potential Improvements](#potential-improvements)
+- [License](#license)
 
 ## Overview
 
